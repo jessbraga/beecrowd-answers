@@ -1,0 +1,32 @@
+#include <stdio.h>
+ 
+int main() {
+    
+    int codigo, quantidade;
+    double valor;
+    
+    scanf("%d %d", &codigo, &quantidade);
+    
+    if(codigo == 1){
+        valor = (double)quantidade * 4.0;
+    }
+    
+    if(codigo == 2){
+        valor = (double)quantidade * 4.5;
+    }
+    
+    if(codigo == 3){
+        valor = (double)quantidade * 5.0;
+    }
+    
+    if(codigo == 4){
+        valor = (double)quantidade * 2.0;
+    }
+    
+    if(codigo == 5){
+        valor = (double)quantidade * 1.5;
+    }
+    
+    printf("Total: R$ %.2lf\n", valor);
+    
+}
