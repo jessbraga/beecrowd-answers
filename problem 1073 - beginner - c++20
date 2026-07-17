@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+ 
+int main() {
+    
+    int num, i, esp;
+    
+    scanf("%d", &num);
+    
+    for(i = 2; i<=num; i++) {
+        
+        if(i % 2 == 0){
+            esp = pow(i, 2);
+            printf("%d^2 = %d\n", i, esp);
+        }
+        
+    }
+    
+}
