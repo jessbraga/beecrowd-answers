@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int num, count = 0;
+    
+    scanf("%d", &num);
+    
+    while(count != 6) {
+        if(num % 2 != 0) {
+            printf("%d\n", num);
+            count++;
+        }
+        num++;
+    }
+
+}
